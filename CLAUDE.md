@@ -10,7 +10,7 @@ Vídeo narrado de integração para motoristas (Tóliman Transportes / Grupo Dí
 - **Revisão de 07/10/2026 (pedida pelo usuário):**
   - "RH" e "RH/GTP" foram trocados por **setor de Jornada**. Os nomes Carlos, Emerson e Larissa saíram do vídeo (o Ewerton, da Manutenção, continua).
   - Defeito no drive: em vez de avisar "pelo RV", o motorista **abre uma OS** para a Manutenção. Na fala ficou "ordem de serviço".
-  - Entrega: o pátio da antiga Ferracini não é mais usado. Agora são 3 locais (Tóliman Machado, Dínamo Machado e Distrito), e o disco é entregue na portaria do local onde o veículo ficou.
+  - Entrega: o pátio da antiga Ferracini saiu do vídeo (os motoristas já foram avisados e o vídeo não menciona). Agora são 3 locais (Tóliman Machado, Dínamo Machado e Distrito), e o disco é entregue na portaria do local onde o veículo ficou.
   - **O áudio dessas cenas ainda é o antigo:** `06_inserir`, `07_lei`, `10_entrega`, `11_reposicao` e `13_encerramento` precisam ser gerados de novo no ElevenLabs com o texto atual de `roteiro.md`. O número de frases de cada cena não mudou.
 - **Pendências de conteúdo:**
   1. Base legal: art. 105 do CTB e Resoluções CONTRAN 14/98 e 87/99, mantidos como no PPTX. Podem estar desatualizados.

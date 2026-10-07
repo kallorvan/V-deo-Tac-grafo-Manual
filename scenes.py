@@ -147,13 +147,13 @@ SCENES = [
        img="lista.jpg",
        items=[
          dict(t="check", text="3 locais: Tóliman Machado, Dínamo Machado e Distrito"),
-         dict(t="check", text="Entregue na portaria do local onde o veículo ficou", sub="O pátio da antiga Ferracini não é mais usado"),
+         dict(t="check", text="Entregue na portaria do local onde o veículo ficou"),
          dict(t="check", text="Início da semana: entregue o jogo preenchido, datado e assinado"),
          dict(t="check", text="O porteiro registra na lista de placas e você assina"),
        ],
        beats=[
          dict(narr="Agora, a entrega dos discos usados. Hoje são três locais para deixar o veículo e entregar o disco: Tóliman Machado, Dínamo Machado e Distrito.", show=[0]),
-         dict(narr="Entregue sempre o disco na portaria do local onde o veículo ficou. O pátio da antiga Ferracini não é mais usado.", show=[1]),
+         dict(narr="Entregue sempre o disco na portaria do local onde o veículo ficou.", show=[1]),
          dict(narr="Ao iniciar a sua nova semana de trabalho, no domingo ou no dia em que começar a sua jornada, entregue o jogo usado, devidamente preenchido, datado e assinado.", show=[2]),
          dict(narr="Na portaria existe uma lista com todas as placas. O porteiro registra a entrega do disco, e você assina confirmando o registro.", show=[3]),
        ]),

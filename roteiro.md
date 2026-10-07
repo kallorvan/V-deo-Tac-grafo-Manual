@@ -57,7 +57,7 @@ Arquivo: `09_sequencia.mp3`
 ## Cena 10 – Entrega dos discos usados  ·  05:08 → 05:51
 Arquivo: `10_entrega.mp3`
 
-> Agora, a entrega dos discos usados. Hoje são três locais para deixar o veículo e entregar o disco: Tóliman Machado, Dínamo Machado e Distrito. Entregue sempre o disco na portaria do local onde o veículo ficou. O pátio da antiga Ferracini não é mais usado. Ao iniciar a sua nova semana de trabalho, no domingo ou no dia em que começar a sua jornada, entregue o jogo usado, devidamente preenchido, datado e assinado. Na portaria existe uma lista com todas as placas. O porteiro registra a entrega do disco, e você assina confirmando o registro.
+> Agora, a entrega dos discos usados. Hoje são três locais para deixar o veículo e entregar o disco: Tóliman Machado, Dínamo Machado e Distrito. Entregue sempre o disco na portaria do local onde o veículo ficou. Ao iniciar a sua nova semana de trabalho, no domingo ou no dia em que começar a sua jornada, entregue o jogo usado, devidamente preenchido, datado e assinado. Na portaria existe uma lista com todas as placas. O porteiro registra a entrega do disco, e você assina confirmando o registro.
 
 ## Cena 11 – Reposição de discos  ·  05:51 → 06:28
 Arquivo: `11_reposicao.mp3`
@@ -96,7 +96,7 @@ Nunca use um disco que pertença a outra placa. O disco é sempre do veículo qu
 
 Cada caixa deixada no seu veículo tem dez conjuntos, e cada conjunto é numerado. Antes de colocar o disco no drive, confira o número do conjunto. Ele fica no carimbo, no verso da última folha do jogo. Use sempre na ordem: primeiro o conjunto um, depois o dois, o três, e assim por diante, até o dez. Respeitar a sequência mantém o nosso controle em dia, e evita que apareçam discos em atraso no seu nome. E, ao devolver o conjunto nove, entregue na portaria também a caixa em que você recebeu os dez conjuntos.
 
-Agora, a entrega dos discos usados. Hoje são três locais para deixar o veículo e entregar o disco: Tóliman Machado, Dínamo Machado e Distrito. Entregue sempre o disco na portaria do local onde o veículo ficou. O pátio da antiga Ferracini não é mais usado. Ao iniciar a sua nova semana de trabalho, no domingo ou no dia em que começar a sua jornada, entregue o jogo usado, devidamente preenchido, datado e assinado. Na portaria existe uma lista com todas as placas. O porteiro registra a entrega do disco, e você assina confirmando o registro.
+Agora, a entrega dos discos usados. Hoje são três locais para deixar o veículo e entregar o disco: Tóliman Machado, Dínamo Machado e Distrito. Entregue sempre o disco na portaria do local onde o veículo ficou. Ao iniciar a sua nova semana de trabalho, no domingo ou no dia em que começar a sua jornada, entregue o jogo usado, devidamente preenchido, datado e assinado. Na portaria existe uma lista com todas as placas. O porteiro registra a entrega do disco, e você assina confirmando o registro.
 
 A reposição das caixas de disco de tacógrafo é responsabilidade da Tóliman Transportes. O setor de Jornada faz a reposição padrão aos sábados, completando sempre dez jogos virgens no seu veículo. Antes de pedir uma caixa nova, procure bem em todos os compartimentos do veículo. Se realmente estiver sem disco, peça ao setor de Jornada. Na ausência dele, peça à Logística e, por último, à Manutenção da Tóliman, em Machado.
 
