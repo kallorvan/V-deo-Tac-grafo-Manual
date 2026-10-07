@@ -7,11 +7,15 @@ Vídeo narrado de integração para motoristas (Tóliman Transportes / Grupo Dí
 - **Concluído:** vídeo final narrado, `Tacografo_Integracao_2026_narrado.mp4` (6 min 35 s, 1920×1080, 30 fps, H.264 + AAC). Foi entregue ao usuário e não está neste pacote, mas é regenerável com `python build.py`.
 - A narração foi gerada pelo usuário no **ElevenLabs**: 13 MP3, um por cena, em `audio/`.
 - O roteiro de narração está em `roteiro.md` (é o texto que foi colado no ElevenLabs).
-- **Pendências de conteúdo** (herdadas do PPTX, ainda não confirmadas com o RH):
-  1. Endereços de entrega citados: portaria Tóliman **Machado**, Dínamo Machado, pátio da antiga Ferracini. Confirmar se ainda valem.
-  2. Base legal: art. 105 do CTB e Resoluções CONTRAN 14/98 e 87/99, mantidos como no PPTX. Podem estar desatualizados.
-  3. A sigla "RV" (canal da manutenção) foi mantida sem explicação.
-  4. O PPTX lista o tema "Possíveis avarias", mas não tem slide próprio. O tema foi incorporado à cena `inserir`.
+- **Revisão de 07/10/2026 (pedida pelo usuário):**
+  - "RH" e "RH/GTP" foram trocados por **setor de Jornada**. Os nomes Carlos, Emerson e Larissa saíram do vídeo (o Ewerton, da Manutenção, continua).
+  - Defeito no drive: em vez de avisar "pelo RV", o motorista **abre uma OS** para a Manutenção. Na fala ficou "ordem de serviço".
+  - Entrega: o pátio da antiga Ferracini não é mais usado. Agora são 3 locais (Tóliman Machado, Dínamo Machado e Distrito), e o disco é entregue na portaria do local onde o veículo ficou.
+  - **O áudio dessas cenas ainda é o antigo:** `06_inserir`, `07_lei`, `10_entrega`, `11_reposicao` e `13_encerramento` precisam ser gerados de novo no ElevenLabs com o texto atual de `roteiro.md`. O número de frases de cada cena não mudou.
+- **Pendências de conteúdo:**
+  1. Base legal: art. 105 do CTB e Resoluções CONTRAN 14/98 e 87/99, mantidos como no PPTX. Podem estar desatualizados.
+  2. O PPTX lista o tema "Possíveis avarias", mas não tem slide próprio. O tema foi incorporado à cena `inserir`.
+- O PPTX de origem (`fonte/`) não está no repositório, que é público. Ele está no `.gitignore`.
 
 ## Estrutura
 ```

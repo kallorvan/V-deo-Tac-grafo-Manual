@@ -84,7 +84,7 @@ SCENES = [
          dict(t="num", n="2", text="Drive limpo e em boas condições"),
          dict(t="num", n="3", text="Encaixe o disco com cuidado, na hora exata"),
          dict(t="check", text="Evite amassar, riscar ou avariar o disco"),
-         dict(t="warn", text="Disco com rasura ou avaria? Avise o RH (Carlos) e a Manutenção (Ewerton)"),
+         dict(t="warn", text="Disco com rasura ou avaria? Avise o setor de Jornada e a Manutenção (Ewerton)"),
        ],
        beats=[
          dict(narr="Vamos ver agora como inserir o disco no drive.", show=[]),
@@ -92,7 +92,7 @@ SCENES = [
          dict(narr="Ao apertar o botão para abrir o drive, verifique se ele está limpo e em boas condições.", show=[1]),
          dict(narr="Insira o disco com cuidado, ajustando para que ele fique exatamente na hora marcada pelo drive e pelo rastreador.", show=[2]),
          dict(narr="Fique atento para evitar qualquer avaria no disco.", show=[3]),
-         dict(narr="E se, ao retirar o jogo depois dos sete dias, algum disco estiver rasurado ou avariado, comunique imediatamente o RH, com o Carlos, e a manutenção, com o Ewerton.", show=[4]),
+         dict(narr="E se, ao retirar o jogo depois dos sete dias, algum disco estiver rasurado ou avariado, comunique imediatamente o setor de Jornada, e a manutenção, com o Ewerton.", show=[4]),
        ]),
 
   dict(id="lei", layout="content", module=3, title="Tacógrafo é obrigatório por lei",
@@ -101,14 +101,14 @@ SCENES = [
          dict(t="warn", text="Proibido dirigir sem o disco no drive"),
          dict(t="check", text="Antes de sair: disco no drive + jogos para a semana toda"),
          dict(t="check", text="Confira se o disco e o drive estão funcionando bem"),
-         dict(t="check", text="Drive com defeito? Manutenção (pelo RV) + RH/GTP (WhatsApp do setor)"),
+         dict(t="check", text="Drive com defeito? Abra uma OS para a Manutenção e avise o setor de Jornada"),
        ],
        beats=[
          dict(narr="O tacógrafo é obrigatório por lei, conforme o artigo cento e cinco do Código de Trânsito Brasileiro e as resoluções catorze, de noventa e oito, e oitenta e sete, de noventa e nove, do Contran.", show=[]),
          dict(narr="Por isso, é proibido conduzir o veículo sem o disco de tacógrafo.", show=[0]),
          dict(narr="Antes de iniciar a viagem, é sua responsabilidade conferir se o disco está colocado no drive, e se há jogos suficientes para toda a sua jornada semanal.", show=[1]),
          dict(narr="Confira também se o disco e o drive estão funcionando bem.", show=[2]),
-         dict(narr="Se o drive apresentar qualquer problema, avise na hora a manutenção, pelo RV, e o RH e GTP, pelo WhatsApp do setor.", show=[3]),
+         dict(narr="Se o drive apresentar qualquer problema, abra na hora uma ordem de serviço para a manutenção, e avise o setor de Jornada, pelo WhatsApp do setor.", show=[3]),
        ]),
 
   dict(id="placa", layout="content", module=3, title="Placa certa e troca de motorista",
@@ -146,14 +146,14 @@ SCENES = [
   dict(id="entrega", layout="content", module=4, title="Entrega dos discos usados",
        img="lista.jpg",
        items=[
-         dict(t="check", text="Entrega na portaria da Tóliman, em Machado"),
-         dict(t="check", text="Veículo na Dínamo Machado → porteiro da Dínamo", sub="Pátio da antiga Ferracini → porteiro da Tóliman Machado"),
+         dict(t="check", text="3 locais: Tóliman Machado, Dínamo Machado e Distrito"),
+         dict(t="check", text="Entregue na portaria do local onde o veículo ficou", sub="O pátio da antiga Ferracini não é mais usado"),
          dict(t="check", text="Início da semana: entregue o jogo preenchido, datado e assinado"),
          dict(t="check", text="O porteiro registra na lista de placas e você assina"),
        ],
        beats=[
-         dict(narr="Agora, a entrega dos discos usados. Toda entrega de disco deve ser feita na portaria da Tóliman, em Machado.", show=[0]),
-         dict(narr="Se o veículo estiver na Dínamo Machado, entregue ao porteiro da Dínamo. Se estiver no pátio da antiga Ferracini, entregue ao porteiro da Tóliman Machado.", show=[1]),
+         dict(narr="Agora, a entrega dos discos usados. Hoje são três locais para deixar o veículo e entregar o disco: Tóliman Machado, Dínamo Machado e Distrito.", show=[0]),
+         dict(narr="Entregue sempre o disco na portaria do local onde o veículo ficou. O pátio da antiga Ferracini não é mais usado.", show=[1]),
          dict(narr="Ao iniciar a sua nova semana de trabalho, no domingo ou no dia em que começar a sua jornada, entregue o jogo usado, devidamente preenchido, datado e assinado.", show=[2]),
          dict(narr="Na portaria existe uma lista com todas as placas. O porteiro registra a entrega do disco, e você assina confirmando o registro.", show=[3]),
        ]),
@@ -162,15 +162,15 @@ SCENES = [
        panel=("10", "jogos virgens sempre no seu veículo"),
        items=[
          dict(t="check", text="Reposição é responsabilidade da Tóliman Transportes"),
-         dict(t="check", text="RH/GTP repõe aos sábados, completando 10 jogos"),
+         dict(t="check", text="Setor de Jornada repõe aos sábados, completando 10 jogos"),
          dict(t="check", text="Procure em todos os compartimentos antes de pedir"),
-         dict(t="flow", label="Sem disco? Peça a:", steps=["RH/GTP · Emerson ou Larissa", "Logística", "Manutenção"]),
+         dict(t="flow", label="Sem disco? Peça a:", steps=["Setor de Jornada", "Logística", "Manutenção"]),
        ],
        beats=[
          dict(narr="A reposição das caixas de disco de tacógrafo é responsabilidade da Tóliman Transportes.", show=[0]),
-         dict(narr="O setor de RH e GTP, no controle de jornada, faz a reposição padrão aos sábados, completando sempre dez jogos virgens no seu veículo.", show=[1]),
+         dict(narr="O setor de Jornada faz a reposição padrão aos sábados, completando sempre dez jogos virgens no seu veículo.", show=[1]),
          dict(narr="Antes de pedir uma caixa nova, procure bem em todos os compartimentos do veículo.", show=[2]),
-         dict(narr="Se realmente estiver sem disco, peça ao RH e GTP, com o Emerson ou a Larissa. Na ausência deles, peça à Logística e, por último, à Manutenção da Tóliman, em Machado.", show=[3]),
+         dict(narr="Se realmente estiver sem disco, peça ao setor de Jornada. Na ausência dele, peça à Logística e, por último, à Manutenção da Tóliman, em Machado.", show=[3]),
        ]),
 
   dict(id="resumo", layout="content", module=None, chip="Resumo", title="Antes de cada viagem, confira",
@@ -191,10 +191,10 @@ SCENES = [
          dict(narr="E o jogo da semana anterior entregue na portaria.", show=[4]),
        ]),
 
-  dict(id="encerramento", layout="end", title="Agradecemos a sua participação!", sub="Dúvidas? Fale com o RH · Carlos Roberto",
+  dict(id="encerramento", layout="end", title="Agradecemos a sua participação!", sub="Dúvidas? Fale com o setor de Jornada",
        beats=[
          dict(narr="O tacógrafo protege você, a empresa e todos na estrada. Preencher e cuidar bem do disco faz parte do seu trabalho."),
-         dict(narr="Em caso de dúvidas, procure o RH, com o Carlos Roberto. A Tóliman agradece a sua participação. Boa viagem!"),
+         dict(narr="Em caso de dúvidas, procure o setor de Jornada. A Tóliman agradece a sua participação. Boa viagem!"),
        ]),
 ]
 
