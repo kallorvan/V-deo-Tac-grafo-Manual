@@ -11,7 +11,7 @@ Vídeo narrado de integração para motoristas (Tóliman Transportes / Grupo Dí
   - "RH" e "RH/GTP" foram trocados por **setor de Jornada**. Os nomes Carlos, Emerson e Larissa saíram do vídeo (o Ewerton, da Manutenção, continua).
   - Defeito no drive: em vez de avisar "pelo RV", o motorista **abre uma OS** para a Manutenção. Na fala ficou "ordem de serviço".
   - Entrega: o pátio da antiga Ferracini saiu do vídeo (os motoristas já foram avisados e o vídeo não menciona). Agora são 3 locais (Tóliman Machado, Dínamo Machado e Distrito), e o disco é entregue na portaria do local onde o veículo ficou.
-  - **O áudio dessas cenas ainda é o antigo:** `06_inserir`, `07_lei`, `10_entrega`, `11_reposicao` e `13_encerramento` precisam ser gerados de novo no ElevenLabs com o texto atual de `roteiro.md`. O número de frases de cada cena não mudou.
+  - As narrações `06_inserir`, `07_lei`, `10_entrega`, `11_reposicao` e `13_encerramento` foram geradas de novo no ElevenLabs com o texto atual de `roteiro.md`. Com elas, o vídeo tem cerca de 6 min 22 s.
 - **Pendências de conteúdo:**
   1. Base legal: art. 105 do CTB e Resoluções CONTRAN 14/98 e 87/99, mantidos como no PPTX. Podem estar desatualizados.
   2. O PPTX lista o tema "Possíveis avarias", mas não tem slide próprio. O tema foi incorporado à cena `inserir`.
